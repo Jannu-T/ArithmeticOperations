@@ -6,8 +6,7 @@ public class Main {
     {
         return b1.add(b2);
     }
-    public BigDecimal sub(BigDecimal b1,BigDecimal b2)
-    {
+    public BigDecimal sub(BigDecimal b1,BigDecimal b2) {
         return b1.subtract(b2);
     }
     //Multiplication
@@ -30,6 +29,7 @@ public class Main {
         BigDecimal b = new BigDecimal(scanner.nextLine());
 
         Main obj = new Main();
+
         System.out.println("Addition of a and b = "+obj.add(a,b));
         System.out.println("Subtraction of b from a = "+obj.sub(a,b));
         System.out.println("Multiplication of a and b = "+obj.mul(a,b));
